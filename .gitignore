@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jetson / local caches
+.cache/
+torch_extensions/
+*.log
+
+# Models / checkpoints / TensorRT / ONNX
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.engine
+*.onnx
+*.trt
+
+# Videos / outputs
+*.mp4
+*.avi
+*.mov
+*.mkv
+output_video.*
+results/
+outputs/
+
+# Local PyTracking configs
+local.py
+ltr/admin/local.py
+pytracking/evaluation/local.py
+
+# External repos if cloned locally
+pytracking/
+torch2trt/
+
+# Editors
+.vscode/
+.idea/
